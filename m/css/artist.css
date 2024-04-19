@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+.sub_wrap {
+    padding: 120px 0 140px;
+    box-sizing: border-box;
+}
+
+.artist {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    margin: 0 50px;
+}
+.artist .artist_list {
+    position: sticky;
+    left: 0;
+    top: 20px;
+    z-index: 10;
+    padding-bottom: 20px;
+}
+.artist .artist_list h3 {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: 380px;
+    height: 80px;
+    background: #c9ab81;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.artist_list ul {
+    position: sticky;
+    width: 380px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.artist_list ul > li a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 20px;
+    height: 68px;
+    border-top: 1px solid #ddd;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.artist_list ul > li:first-child > a {
+    border: none;
+}
+.artist_list ul > li span {
+    color: #c9ab81;
+}
+.artist_list ul > li a:hover,
+.artist_list ul > li .sort_depth > li a:hover {
+    color: #c9ab81;
+}
+.artist_list ul > li:first-child a:after {display: none;}
+.artist_list ul > li .sort_depth a:after {display: none;}
+.artist_list ul > li a:after {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -7.5px;
+    width: 15px;
+    height: 15px;
+    background: url(../img/sub_artist/ico_plus.png) no-repeat center;
+    -webkit-transition: transform 0.4s ease;
+    transition: transform 0.4s ease;
+}
+.artist_list ul > li .sort_depth {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    font-family: 'Noto-sans KR';
+    border: none;
+    display: none;
+}
+.artist_list ul > li .sort_depth > li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+}
+.artist_list ul > li.on .sort_depth {display: block;}
+
+
+/* sub_artist_cont */
+.sub_artist_cont {
+    padding: 0 0 150px 120px;
+    box-sizing: border-box;
+    max-width: 1230px;
+    width: calc(100% - 380px);
+}
+.sub_artist_cont h2 {
+    font-size: 42px;
+    color: #333;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 50px;
+    padding-top: 115px;
+}
+.sub_artist_cont p {
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    font-family: 'Noto-sans KR';
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.sub_artist_cont p strong {
+    font-weight: 500;
+    color: #c9ab81;
+}
+.sub_artist_cont ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.sub_artist_cont ul > li img {
+    width: 350px; height: 350px;
+}
+.sub_artist_cont ul > li {
+    margin-right: 30px;
+}
+.sub_artist_cont ul > li:nth-child(n+1) {margin-right: 30px;}
+.sub_artist_cont ul > li:nth-child(3n){margin-right: 0;}
+.sub_artist_cont .img_text{
+    text-align: center;
+    line-height: 2;
+}
+.sub_artist_cont .img_text a {
+    display: block;
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.sub_artist_cont .img_text p {
+    font-family: 'EB Garamond', sans-serif;
+    color: #c9ab81;
+}
+
+
+/* best_hide */
+.sub_artist_cont .img_box .best_hide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    position: absolute;
+    top: 30px; left: -100%; bottom: 30px; right: 30px;
+    width: 270px; height: 270px; 
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px; 
+    transition: all 0.7s;
+  }
+
+  /* hover 시 숨겨진 요소 표시 */
+  .sub_artist_cont .img_box:hover .best_hide {
+    opacity: 1;
+    left: 30px;
+  }
+  .sub_artist_cont .img_box {
+    position: relative;
+    overflow: hidden;
+  }
+  .sub_artist_cont .best_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+  }

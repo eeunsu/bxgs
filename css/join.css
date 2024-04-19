@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.sub_wrap {
+    padding: 120px 0 140px;
+    box-sizing: border-box;
+}
+.join {
+    padding-bottom: 200px;
+}
+.join_area {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.join_area .join_intro h3{
+    margin: 30px 0 40px;
+    font-size: 20px;
+    color: #333;
+    line-height: 30px;
+    font-weight: 400;
+}
+.join_area .join_intro .signup{
+    display: block;
+    position: relative;
+    width: 600px;
+    border: 1px solid #c9ab81;
+    font-size: 18px;
+    color: #c9ab81;
+    line-height: 58px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    text-align: center;
+}
+.join_area .join_intro .signup:hover {
+    background: #c9ab81;
+    color: #fff;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>백상갤러리</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/m/m_common.css" media="screen and (max-width:440px)">
+    <link rel="stylesheet" href="css/m/m_login.css" media="screen and (max-width:440px)">
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div>
+                <ul class="gnb">
+                    <button class="btnNav"><span class="blind">전체메뉴</span></button>                  
+                </ul>
+                <h1 class="logo">
+                    <a href="index.html"><span class="blind">백상 갤러리 로고</span></a>
+                </h1>
+                <ul class="gnb">
+                    <a href="#" class="btn_search"><img src="img/ico_header_search.png" alt="검색하기"></a>
+                </ul>
+            </div>
+        </header>
+        <!-- //header -->
+
+            <div class="totalNav">
+                <h2 class="blind">전체메뉴</h2>
+                <h3 class="logo"><a href="index.html"><span class="blind">백상갤러리 로고</span></a></h3>
+                <div>
+                    <nav>
+                        <ul class="megaMenu">
+                            <li class="on">
+                                <a href="#">Product</a>
+                                <div>
+                                    <ul class="depth">
+                                        <li><a href="sub_best_art.html"><span><em>베스트</em></span></a></li>
+                                        <li><a href="sub_new_art.html"><span><em>신상품</em></span></a></li>
+                                        <li><a href="sub_picture_art.html"><span><em>사진작품</em></span></a></li>
+                                        <li><a href="sub_painting_art.html"><span><em>그림작품</em></span></a></li>
+                                        <li><a href="sub_artist.html"><span><em>작가별</em></span></a></li>
+                                        <li><a href="sub_genre.html"><span><em>장르별</em></span></a></li>
+                                        <li><a href="sub_subject.html"><span><em>주제별</em></span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">About Baexang</a>
+                                <div>
+                                    <ul class="depth">
+                                        <li><a href="#"><span><em>회사소개</em></span></a></li>
+                                        <li><a href="#"><span><em>갤러리</em></span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Community</a>
+                                <div>
+                                    <ul class="depth">
+                                        <li><a href="#"><span><em>공지사항</em></span></a></li>
+                                        <li><a href="#"><span><em>이벤트</em></span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Service</a>
+                                <div>
+                                    <ul class="depth">
+                                        <li><a href="#"><span><em>FAQ</em></span></a></li>
+                                        <li><a href="#"><span><em>제휴협찬문의</em></span></a></li>
+                                        <li><a href="#"><span><em>당첨자 발표</em></span></a></li>
+                                        <li><a href="#"><span><em>1:1 문의</em></span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="close"><span class="blind">전체 메뉴 닫기</span></button>
+                    </nav>
+                </div>
+                <div class="info_wrap">
+                    <nav class="info_menu">
+                        <ul>
+                            <li><a href="login.html"><span>로그인</span></a></li>
+                            <li><a href="join.html"><span>회원가입</span></a></li>
+                            <li><a href="#"><span>개인결제창</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            <!-- //totalNav -->
+        </div>
+
+        <!-- sub_wrap -->
+        <section class="sub_wrap">
+            <section class="inner_02">
+                <div class="main_title">   
+                    <h2>LOGIN</h2>
+                </div>
+            </section>
+        </section>
+
+        <section class="login">
+            <div class="login_wrap inner_02">
+                <div class="left_login">
+                    <div class="login_tab">
+                        <ul>
+                            <li><a href="#">회원로그인</a></li>
+                            <li><a href="#">비회원 주문조회</a></li>
+                        </ul>
+                    </div>
+                     
+                        <div class="login_box">
+                            <input type="text" id="id" placeholder="아이디"/> 
+                            <input type="password" id="password" placeholder="비밀번호" />
+                        </div>
+                        <div class="check_box">
+                            <input type="checkbox" name="auto_login" id="login_auto" class="selec-chk">
+                        <label for="login_auto">아이디 저장</label>
+                        </div>
+
+                    <button type="submit" class="btn_submit">LOGIN</button>
+                </div>
+
+                <div class="right_login">
+                    <div class="login-etc">
+                        <h3>백상쇼핑몰 신규 회원가입</h3>
+                        <p>백상쇼핑몰 회원가입 후 다양한 혜택과 소식을 만나보세요.</p>
+                        <a href="javascript:;" class="signup">회원가입</a>
+                    </div>
+                    <div class="login-etc">
+                        <h3>아이디/비밀번호 찾기</h3>
+                        <p>간단한 정보를 입력 후 정보를 찾을 수 있습니다.</p>
+                        <a href="javascript:;" class="login_search">아이디/비밀번호 찾기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="inner_02">
+                <h2 class="blind">백상 갤러리</h2>
+                <div class="ft-info-wrap">
+                    <ul class="ft-policy">
+                        <li><a href="javascript:;">개인정보처리방침</a></li>
+                        <li><a href="javascript:;p">이용약관</a></li>
+                        <li><a href="javascript:;">회사소개</a></li>
+                    </ul>
+                    <address class="ft-address">
+                        <p>
+                            <span>대표자 : 권순상</span>
+                            <span>사업자 등록번호 : 137-81-30071</span>
+                        </p>
+                        <p>
+                            <span>주소 : 경기도 고양시 일산동구 산황로 178-15</span>
+                            <span>EMAIL : <a href="javascript:;">gbaexang@gmail.com</a></span>
+                            <span>TEL : 031-954-9541</span>
+                            <span>FAX : 031-977-9540</span>
+                        </p>
+                    </address>
+                    <p class="copyright">Copyright © 2022 Baexang Gallery. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    <script src="js/common.js"></script>
+</body>
+</html>

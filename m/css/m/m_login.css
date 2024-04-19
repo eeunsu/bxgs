@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* 440px */
+
+.sub_wrap {
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+
+.login_wrap {
+    flex-wrap: wrap;
+}
+
+.login_wrap .left_login ul>li a {
+    font-size: 16px;
+}
+
+
+/* left_login 영역 */
+.login_wrap .left_login {
+    flex: 1;
+    padding-right: 0;
+    width: 390px;
+}
+
+.login_wrap .left_login ul {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.login_wrap .left_login ul>li:last-child a {
+    padding-left: 21px;
+}
+
+/* input영역 */
+.login_box input[type="text"],
+.login_box input[type="password"] {
+    width: 390px;
+}
+
+#id,
+#password {
+    font-size: 14px;
+}
+
+.login_box {
+    width: 390px;
+}
+
+.btn_submit {
+    width: 390px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+/* login_right  */
+.login_wrap .right_login {
+
+    padding-left: 0;
+}
+
+.right_login .login-etc {
+    width: 390px;
+}
+
+.right_login .login-etc h3 {
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+.right_login .login-etc p {
+    margin: 10px 0 25px;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+.right_login .login-etc a {
+    font-size: 16px;
+}
+
+.right_login:after {
+    display: none;
+}
+
+/* 390px */
+@media screen and (max-width: 390px) {
+    .login_box {
+        width: 350px;
+    }
+
+    .login_wrap .left_login ul>li a {
+        font-size: 14px;
+    }
+
+    .login_wrap .left_login {
+        width: 350px;
+    }
+
+    .login_box input[type="text"],
+    .login_box input[type="password"] {
+        width: 350px;
+    }
+
+    .login_wrap .left_login {
+        width: 350px;
+    }
+
+    .btn_submit {
+        width: 350px;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .right_login .login-etc .signup {
+        width: 350px;
+    }
+
+    .right_login .login-etc {
+        width: 350px;
+    }
+
+    .right_login .login-etc a {
+        font-size: 15px;
+    }
+
+}

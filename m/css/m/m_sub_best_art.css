@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.sub_wrap {
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+.sub_best_cont h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.sub_best_cont .best img {
+    width: 190px;
+    height: 190px;
+}
+.sub_best_cont .best .best_list {
+    width: 100%;
+    justify-content: space-between;
+}
+.sub_best_cont .best .best_list > li {
+    margin-top: 40px;
+    width: calc((100% - 20px) / 2);
+}
+.sub_best_cont .best_list > li:nth-child(1) {margin-right: 0;}
+.sub_best_cont .best_list > li:nth-child(2) {margin-right: 0;}
+.sub_best_cont .best_list > li:nth-child(4) {margin-right: 0;}
+
+.sub_best_cont .best .best_list h3 {
+    font-size: 18px;
+    margin: 10px 0 10px;
+}
+.sub_best_cont .best .best_list span,
+.sub_best_cont.best .best_list p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.sub_best_cont .best .best_list price {
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+ /* best_hide */
+ .sub_best_cont .img_box .best_hide {
+    top: 10px; left: -100%; bottom: 10px; right: 10px;
+    width: 166px; height: 170px; 
+    padding: 5px; 
+    box-sizing: border-box;
+  }
+  /* hover 시 숨겨진 요소 표시 */
+  .sub_best_cont .best_list .img_box:hover .best_hide {
+    left: 10px;
+  }
+  .sub_best_cont .best_list .img_box {
+    position: relative;
+    overflow: hidden;
+  }
+  .sub_best_cont .best_hide .best_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+  }
+
+  /* 390px */
+  @media screen and (max-width: 390px){
+    .sub_best_cont .best .best_list price {
+        font-size: 25px;
+    }
+    /* best_hide */
+ .sub_best_cont .img_box .best_hide {
+    width: 146px; height: 170px; 
+  }
+
+  }
