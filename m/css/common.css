@@ -100,7 +100,7 @@ header .btnNav {
 }
 
 /* logo */
-.logo>a {
+.logo > a {
     display: block;
     width: 126px;
     height: 50px;
@@ -115,7 +115,7 @@ header .btnNav {
     align-items: center;
 }
 
-.gnb>li>a {
+.gnb > li > a {
     display: block;
     font-family: 'Noto Sans KR';
     padding: 10px 5px;
@@ -209,7 +209,7 @@ section .slick-dots li button:before {
     height: 100%;
 }
 
-.totalNav nav>.megaMenu {
+.totalNav nav > .megaMenu {
     display: flex;
     flex-direction: column;
     height: 100%;

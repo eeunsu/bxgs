@@ -13,8 +13,8 @@ $(function() {
 
 $(function(){
     $('.megaMenu > li').on('click', function(){
-        $(this).next('.depth').stop().slideToggle(300);
+        $(this).next('.depth').stop().slideToggle(600);
         $(this).toggleClass('on').siblings().removeClass('on')
-        $(this).next('.depth').siblings('.depth').stop().slideUp(300)
+        $(this).next('.depth').siblings('.depth').stop().slideUp(600)
     })
 })

@@ -7,168 +7,210 @@
 }
 
 /* main_bg */
-.main_slide_wrap .main_bg .slick-dots li {display: none;}
+.main_slide_wrap .main_bg .slick-dots li {
+    display: none;
+}
+
 .main_bg div {
     height: 90vh;
 }
+
 .main_bg .main_text {
     margin-left: 50px;
 }
+
 .main_bg .main_text span {
     font-size: 14px;
     line-height: 5px;
 }
+
 .main_bg .main_text h2 {
     font-size: 32px;
     line-height: 40px;
 }
-.slick-dotted.slick-slider {margin-bottom: 0;}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
 
 
 /* best_art */
 .best_art {
     padding: 0;
 }
+
 .best {
     margin-top: 50px;
 }
+
 .best .best_list {
     width: 100%;
     display: block;
 }
+
 .best .best_list li {
     margin-bottom: 50px;
 }
+
 .best .slick-dots {
     bottom: 10px;
 }
-/* 사진 밑 글자 */
-    .best .best_list h3 {
-    font-size: 20px;
-    }
-    .best .best_list span {
-    margin-bottom: 5px;
-    }
-   .best .best_list p {
-   font-size: 14px;
-   margin-bottom: 3px;
-   }
-   .best .best_list price {
-    font-size: 26px;
-   }
-   .best .best_list price > b {
-    font-size: 20px;
-   }
 
-   /* md_pick */
-   .pick {
+/* 사진 밑 글자 */
+.best .best_list h3 {
+    font-size: 20px;
+}
+
+.best .best_list span {
+    margin-bottom: 5px;
+}
+
+.best .best_list p {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.best .best_list price {
+    font-size: 26px;
+}
+
+.best .best_list price > b {
+    font-size: 20px;
+}
+
+/* md_pick */
+.pick {
     padding: 100px 0;
     box-sizing: border-box;
-   }
-   .pick .pick_tap ul {
+}
+
+.pick .pick_tap ul {
     margin-top: 30px;
     margin-bottom: 40px;
-   }
-   .pick .pick_tap ul li a {
+}
+
+.pick .pick_tap ul li a {
     font-size: 14px;
-   }
-   .tab_content {
+}
+
+.tab_content {
     width: 350px;
     padding: 0;
-   }
-   .tab_content figure > img {
+}
+
+.tab_content figure > img {
     position: relative;
     width: 350px;
     height: 350px;
     top: 0;
     left: 0;
-   }
-   .tab_content .art_text {
+}
+
+.tab_content .art_text {
     margin-top: 0;
     padding: 30px 20px;
     box-sizing: border-box;
-   }
-   .tab_content .art_text span {
+}
+
+.tab_content .art_text span {
     font-size: 14px;
     margin-bottom: 10px;
-   }
-   .tab_content .art_text h3 {
+}
+
+.tab_content .art_text h3 {
     font-size: 22px;
     margin-bottom: 10px;
-   }
-   .tab_content .art_text p {
+}
+
+.tab_content .art_text p {
     font-size: 14px;
     margin-bottom: 50px;
-   }
+}
 
 
-   /* new_art */
-   .new {
+/* new_art */
+.new {
     margin-top: -50px;
-   }
-   .new .new_art {
+}
+
+.new .new_art {
     margin-top: 50px;
-   }
-   .new .new_art .new_list figure > img {
+}
+
+.new .new_art .new_list figure > img {
     width: 320px;
     height: 444px;
-   }
-   .new .new_art .new_list .title {
+}
+
+.new .new_art .new_list .title {
     width: 280px;
-   }
-   .new_art .new_list p {
+}
+
+.new_art .new_list p {
     width: 320px;
     font-size: 14px;
-   }
-   .new_art .new_list span {
-    font-size: 14px;
-   }
-   .new_art .new_list h3 {
-    font-size: 22px;
-   }
+}
 
-   /* .direct_gallery */
-   .direct_gallery {
+.new_art .new_list span {
+    font-size: 14px;
+}
+
+.new_art .new_list h3 {
+    font-size: 22px;
+}
+
+/* .direct_gallery */
+.direct_gallery {
     padding: 70px 20px;
     box-sizing: border-box;
     margin: 0;
     margin-top: 20px;
-   }
-   .direct_gallery .direct_text {
+}
+
+.direct_gallery .direct_text {
     width: 100%;
     padding: 70px 20px;
     box-sizing: border-box;
-   }
-   .direct_gallery .direct_text h3 {
+}
+
+.direct_gallery .direct_text h3 {
     font-size: 26px;
     letter-spacing: 1;
     line-height: 1.5;
-   }
-   .direct_text p {
-    font-size: 14px;
-   }
+}
 
-   .review {
+.direct_text p {
+    font-size: 14px;
+}
+
+.review {
     padding: 100px 0 160px;
     box-sizing: border-box;
-   }
-   .reviews .review_list > li {
+}
+
+.reviews .review_list > li {
     width: 350px;
-   }
-   .reviews .review_list img {
+}
+
+.reviews .review_list img {
     width: 350px;
     height: 272px;
-   }
-   .reviews .review_list p {
+}
+
+.reviews .review_list p {
     width: 350px;
     font-size: 14px;
 }
+
 .reviews .review_list .review_date {
     top: -272px;
     left: -1px;
 }
+
 .reviews .review_list span {
     display: block;
 }
-.reviews .review_list .review_desc .front:after {display: none;}
 
+.reviews .review_list .review_desc .front:after {
+    display: none;
+}

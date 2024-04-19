@@ -11,7 +11,7 @@
     flex-wrap: wrap;
 }
 
-.login_wrap .left_login ul>li a {
+.login_wrap .left_login ul > li a {
     font-size: 16px;
 }
 
@@ -28,7 +28,7 @@
     margin-bottom: 30px;
 }
 
-.login_wrap .left_login ul>li:last-child a {
+.login_wrap .left_login ul > li:last-child a {
     padding-left: 21px;
 }
 
@@ -88,7 +88,7 @@
         width: 350px;
     }
 
-    .login_wrap .left_login ul>li a {
+    .login_wrap .left_login ul > li a {
         font-size: 14px;
     }
 

@@ -62,6 +62,7 @@ section h2:after {
     height: 1px;
     background: #211e1f;
 }
+
 /* button */
 .more {
     margin-top: 20px;
@@ -71,9 +72,9 @@ section h2:after {
     font-size: 18px;
     color: #333333;
     font-family: 'EB Garamond', sans-serif;
-   }
+}
 
-   .more:before {
+.more:before {
     content: '';
     position: absolute;
     left: 0;
@@ -82,19 +83,21 @@ section h2:after {
     width: 35px;
     height: 1px;
     background: #c9ab81;
-   }
-   .btn_more {
+}
+
+.btn_more {
     font-size: 18px;
     color: #333;
     border: 1px solid #c9ab81;
     padding: 10px 30px;
     box-sizing: border-box;
     transition: all 0.5s;
-   }
-   .btn_more:hover {
+}
+
+.btn_more:hover {
     color: #fff;
     background: #c9ab81;
-   }
+}
 
 
 /* header */
@@ -230,14 +233,17 @@ section .slick-dots li button:before {
     height: 100%;
 }
 
-.totalNav nav > .megaMenu {
+.totalNav nav>.megaMenu {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
+
 .totalNav nav>.megaMenu>li {
     position: relative;
+    padding-right: 300px;
 }
+
 .totalNav nav>.megaMenu>li>a {
     display: inline-block;
     padding: 22px 0;
@@ -250,7 +256,7 @@ section .slick-dots li button:before {
     transition: all 0.4s ease;
 }
 
-/* ul > depth */
+/* ul  >  depth */
 .dim .totalNav nav>.megaMenu>li ul {
     font-family: 'Noto Sans KR';
     display: none;
@@ -260,24 +266,19 @@ section .slick-dots li button:before {
     transition: all 0.4s ease;
 }
 
-.dim .totalNav nav>.megaMenu>li .depth1 {
-    top: 28%;
-    right: 35%;
+.dim .totalNav nav>.megaMenu>li .depth {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    z-index: 100;
+    width: 230px;
 }
 
-.dim .totalNav nav>.megaMenu>li .depth2 {
-    top: 37%;
-    right: 35%;
-}
-
-.dim .totalNav nav>.megaMenu>li .depth3 {
-    top: 46%;
-    right: 35%;
-}
-
-.dim .totalNav nav>.megaMenu>li .depth4 {
-    top: 53%;
-    right: 30%;
+.dim .totalNav nav>.megaMenu>li.on .depth {
+    opacity: 1;
+    visibility: visible;
 }
 
 .dim .totalNav nav>.megaMenu>li:hover ul {
@@ -306,7 +307,6 @@ section .slick-dots li button:before {
     color: #333;
     line-height: 40px;
     letter-spacing: -0.5px;
-    transition: all 0.6s;
 }
 
 .dim .totalNav nav>.megaMenu>li ul a span {
@@ -333,6 +333,7 @@ section .slick-dots li button:before {
 .dim .totalNav nav>.megaMenu>li ul a:focus span:after {
     width: 100%;
 }
+
 .dim {
     position: fixed;
     left: 0;
@@ -460,6 +461,7 @@ section .slick-dots li button:before {
     font-family: 'EB Garamond', sans-serif;
     letter-spacing: -0.5px;
 }
+
 #footer .ft-address span::after {
     content: "";
     position: absolute;
@@ -469,7 +471,8 @@ section .slick-dots li button:before {
     height: 10px;
     background: rgba(136, 136, 136, 0.5);
 }
-#footer .ft-address span:first-child:after{
+
+#footer .ft-address span:first-child:after {
     display: none;
 }
 
@@ -485,9 +488,9 @@ section .slick-dots li button:before {
         transform: translateY(30%);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
     }
 }
-

@@ -1,5 +1,5 @@
 /* totalNav */
- $(function() {
+$(function() {
     
     $('.btnNav').on('click', function() {
         $('.dim, .totalNav').fadeIn('on')

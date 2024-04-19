@@ -5,12 +5,14 @@
     padding: 120px 0 140px;
     box-sizing: border-box;
 }
+
 .login_wrap {
     display: flex;
     justify-content: space-between;
     padding-bottom: 160px;
     font-family: 'Noto-sans KR';
 }
+
 .left_login,
 .right_login {
     width: 580px;
@@ -22,10 +24,12 @@
     padding-right: 60px;
     width: 580px;
 }
+
 .login_wrap .left_login ul {
     display: flex;
     margin-bottom: 30px;
 }
+
 .login_wrap .left_login ul > li a {
     display: block;
     position: relative;
@@ -33,13 +37,16 @@
     color: #666666;
     line-height: 30px;
 }
+
 .login_wrap .left_login ul > li a {
     margin-right: 20px;
 }
+
 .login_wrap .left_login ul > li:last-child a {
     padding-left: 21px;
 }
-.login_wrap .left_login ul > li a:after{
+
+.login_wrap .left_login ul > li a:after {
     content: "";
     position: absolute;
     left: 0;
@@ -48,7 +55,10 @@
     height: 12px;
     background: #ccc;
 }
-.login_wrap .left_login ul > li:first-child a:after {display: none;}
+
+.login_wrap .left_login ul > li:first-child a:after {
+    display: none;
+}
 
 
 /* input영역 */
@@ -56,9 +66,11 @@
 .login_box input[type="password"] {
     width: 580px;
 }
+
 .login_box {
     width: 580px;
 }
+
 #id,
 #password {
     display: block;
@@ -76,6 +88,7 @@
     margin-bottom: 12px;
     box-sizing: border-box;
 }
+
 .check_box {
     display: block;
     position: relative;
@@ -101,6 +114,7 @@
     transition: all 0.4s ease;
     cursor: pointer;
 }
+
 .btn_submit:hover {
     border: #c9ab81;
     background: #fff;
@@ -113,15 +127,18 @@
     position: relative;
     padding-left: 100px;
 }
+
 .right_login .login-etc {
     width: 580px;
 }
+
 .right_login .login-etc h3 {
     font-size: 20px;
     color: #333333;
     font-weight: 500;
     line-height: 30px;
 }
+
 .right_login .login-etc p {
     margin: 15px 0 40px;
     border: none;
@@ -130,6 +147,7 @@
     line-height: 26px;
     font-weight: 500;
 }
+
 .right_login .login-etc a {
     display: block;
     position: relative;
@@ -142,18 +160,22 @@
     text-align: center;
     margin-bottom: 80px;
 }
+
 .right_login .login-etc .signup {
     border-color: #c9ab81;
     color: #c9ab81;
 }
+
 .right_login .login-etc .signup:hover {
     background: #c9ab81;
     color: #fff;
 }
+
 .right_login .login-etc .login_search:hover {
     background: #666666;
     color: #fff;
 }
+
 .right_login:after {
     content: '';
     position: absolute;

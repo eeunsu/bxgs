@@ -12,18 +12,22 @@
     padding: 20px 20px 90px;
     box-sizing: border-box;
 }
+
 .totalNav .close {
     top: 3%;
 }
+
 .totalNav .logo a {
     width: 130px;
     height: 40px;
     background-size: contain;
 }
-.totalNav nav>.megaMenu>li>a {
+
+.totalNav nav > .megaMenu >li >a {
     font-size: 25px;
 }
-.totalNav nav>.megaMenu>li>a {
+
+.totalNav nav >.megaMenu >li >a {
     display: inline-block;
     padding: 22px 0;
     font-size: 25px;
@@ -34,14 +38,17 @@
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-.totalNav nav>.megaMenu>li {
+
+.totalNav nav >.megaMenu >li {
     transition: all 0.8s;
 }
-.totalNav nav>.megaMenu>li a:hover {
-    font-style: italic;
+
+.totalNav nav >.megaMenu >li a:hover {
+    font-style: normal;
     color: #c9ab81;
 }
-.totalNav nav>.megaMenu>li ul > li a {
+
+.totalNav nav >.megaMenu >li ul >li a {
     position: relative;
     font-size: 16px;
     color: #333;
@@ -49,7 +56,8 @@
     letter-spacing: -0.5px;
     transition: all 0.6s;
 }
-.totalNav nav>.megaMenu>li ul a span:after {
+
+.totalNav nav >.megaMenu >li ul a span:after {
     content: '';
     position: absolute;
     left: 0;
@@ -61,16 +69,19 @@
     transition: width 0.3s ease;
 }
 
-.totalNav nav>.megaMenu>li ul a:hover span:after,
-.totalNav nav>.megaMenu>li ul a:focus span:after {
+.totalNav nav >.megaMenu >li ul a:hover span:after,
+.totalNav nav >.megaMenu >li ul a:focus span:after {
     width: 100%;
 }
 
 
-.totalNav nav > .megaMenu > li .depth{
+.totalNav nav >.megaMenu >li .depth {
     display: none;
 }
-.totalNav nav > .megaMenu > li.on .depth {display: block;}
+
+.totalNav nav >.megaMenu >li.on .depth {
+    display: block;
+}
 
 .info_wrap .info_menu li a {
     font-size: 15px;
@@ -83,6 +94,7 @@ header {
     width: 100%;
     height: 70px;
 }
+
 header div {
     display: flex;
     justify-content: space-between;
@@ -95,8 +107,9 @@ header div {
     align-items: center;
 }
 
-.logo > a {
-    width: 100px; height: 38px;
+.logo >a {
+    width: 100px;
+    height: 38px;
 }
 
 
@@ -106,6 +119,7 @@ header div {
     box-sizing: border-box;
     font-size: 12px;
 }
+
 #footer .ft-policy li {
     margin-left: 12px;
 }
@@ -117,6 +131,7 @@ header div {
 #footer .copyright {
     font-size: 12px;
 }
+
 .ft-info-wrap {
     padding: 0 4.5%;
     box-sizing: border-box;

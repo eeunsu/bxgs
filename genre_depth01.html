@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>백상갤러리</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+
+    <title>백상 갤러리샵</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/genre.css">
@@ -11,6 +14,7 @@
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
 </head>
+
 <body>
     <div id="wrap">
         <header>
@@ -32,12 +36,12 @@
                 <ul class="gnb">
                     <li class="empty"></li>
                     <li class="empty"></li>
-                    <li><a href="#">로그인</a></li>
-                    <li><a href="#">회원가입</a></li>
-                    <li><a href="#">주문조회</a></li>
-                    <li><a href="#">장바구니</a></li>
-                    <li><a href="#">고객센터</a></li>
-                    <a href="#" class="btn_search"><img src="img/ico_header_search.png" alt="검색하기"></a>
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="join.html">회원가입</a></li>
+                    <li><a href="javascript:;">주문조회</a></li>
+                    <li><a href="javascript:;">장바구니</a></li>
+                    <li><a href="javascript:;">고객센터</a></li>
+                    <a href="javascript:;" class="btn_search"><img src="img/ico_header_search.png" alt="검색하기"></a>
                 </ul>
                 <!-- //gnb_right -->
             </div>
@@ -51,9 +55,9 @@
                     <nav>
                         <ul class="megaMenu">
                             <li class="on">
-                                <a href="#">Product</a>
+                                <a href="javascript:;">Product</a>
                                 <div>
-                                    <ul class="depth1">
+                                    <ul class="depth">
                                         <li><a href="sub_best_art.html"><span><em>베스트</em></span></a></li>
                                         <li><a href="sub_new_art.html"><span><em>신상품</em></span></a></li>
                                         <li><a href="sub_picture_art.html"><span><em>사진작품</em></span></a></li>
@@ -64,32 +68,32 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li>
-                                <a href="#">About Baexang</a>
+                            <li class="on">
+                                <a href="javascript:;">About Baexang</a>
                                 <div>
-                                    <ul class="depth2">
-                                        <li><a href="#"><span><em>회사소개</em></span></a></li>
-                                        <li><a href="#"><span><em>갤러리</em></span></a></li>
+                                    <ul class="depth">
+                                        <li><a href="javascript:;"><span><em>회사소개</em></span></a></li>
+                                        <li><a href="javascript:;"><span><em>갤러리</em></span></a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li>
-                                <a href="#">Community</a>
+                            <li class="on">
+                                <a href="javascript:;">Community</a>
                                 <div>
-                                    <ul class="depth3">
-                                        <li><a href="#"><span><em>공지사항</em></span></a></li>
-                                        <li><a href="#"><span><em>이벤트</em></span></a></li>
+                                    <ul class="depth">
+                                        <li><a href="javascript:;"><span><em>공지사항</em></span></a></li>
+                                        <li><a href="javascript:;"><span><em>이벤트</em></span></a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li>
-                                <a href="#">Service</a>
+                            <li class="on">
+                                <a href="javascript:;">Service</a>
                                 <div>
-                                    <ul class="depth4">
-                                        <li><a href="#"><span><em>FAQ</em></span></a></li>
-                                        <li><a href="#"><span><em>제휴협찬문의</em></span></a></li>
-                                        <li><a href="#"><span><em>당첨자 발표</em></span></a></li>
-                                        <li><a href="#"><span><em>1:1 문의</em></span></a></li>
+                                    <ul class="depth">
+                                        <li><a href="javascript:;"><span><em>FAQ</em></span></a></li>
+                                        <li><a href="javascript:;"><span><em>제휴협찬문의</em></span></a></li>
+                                        <li><a href="javascript:;"><span><em>당첨자 발표</em></span></a></li>
+                                        <li><a href="javascript:;"><span><em>1:1 문의</em></span></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -100,115 +104,116 @@
                 <div class="info_wrap">
                     <nav class="info_menu">
                         <ul>
-                            <li><a href="#"><span>로그인</span></a></li>
-                            <li><a href="#"><span>회원가입</span></a></li>
-                            <li><a href="#"><span>개인결제창</span></a></li>
+                            <li><a href="login.html"><span>로그인</span></a></li>
+                            <li><a href="join.html"><span>회원가입</span></a></li>
+                            <li><a href="javascript:;"><span>개인결제창</span></a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
             <!-- //totalNav -->
-    </div>
+        </div>
 
-            <!-- sub_wrap -->
-            <section class="sub_wrap">
-                <section class="best_art inner_02">
-                    <div class="main_title">
-                        <strong>장르별로 다양한 작품을 만나보세요.</strong>
-                        <h2>GENRE</h2>
-                    </div>
-                </section>
+        <!-- sub_wrap -->
+        <section class="sub_wrap">
+            <section class="best_art inner_02">
+                <div class="main_title">
+                    <strong>장르별로 다양한 작품을 만나보세요.</strong>
+                    <h2>GENRE</h2>
+                </div>
             </section>
+        </section>
 
-            <!-- artist_list -->
-            <div class="artist inner_01">
-                <div class="artist_list">
-                    <h3>Genre List</h3>
-                    <ul>
-                        <li><a href="sub_genre.html"><span>ALL</span></a></li>
-                        <li><a href="genre_depth01.html"><span>초상화<strong>Portrait</strong></span></a></li>
-                        <li><a href="javascript:;"><span>추상화<strong>Abstracts</strong></span></a></li>
-                        <li><a href="javascript:;"><span>풍경<strong>Landscape</strong></span></a></li>
-                        <li><a href="javascript:;"><span>정물<strong>Still life</strong></span></a></li>
-                        <li><a href="javascript:;"><span>타이포그래피<strong>Typography</strong></span></a></li>
-                        <li><a href="javascript:;"><span>일러스트<strong>Illust</strong></span></a></li>
-                        <li><a href="javascript:;"><span>포스터<strong>Poster</strong></span></a></li>
-                        <li><a href="javascript:;"><span>팝아트<strong>Popart</strong></span></a></li>
-                        <li><a href="javascript:;"><span>초현실<strong>Surrealism</strong></span></a></li>
-                        <li><a href="javascript:;"><span>카툰<strong>Cartoons</strong></span></a></li>
-                       
-                    </ul>
-                </div>
+        <!-- artist_list -->
+        <div class="artist inner_01">
+            <div class="artist_list">
+                <h3>Genre List</h3>
+                <ul>
+                    <li><a href="sub_genre.html"><span>ALL</span></a></li>
+                    <li><a href="genre_depth01.html"><span>초상화<strong>Portrait</strong></span></a></li>
+                    <li><a href="javascript:;"><span>추상화<strong>Abstracts</strong></span></a></li>
+                    <li><a href="javascript:;"><span>풍경<strong>Landscape</strong></span></a></li>
+                    <li><a href="javascript:;"><span>정물<strong>Still life</strong></span></a></li>
+                    <li><a href="javascript:;"><span>타이포그래피<strong>Typography</strong></span></a></li>
+                    <li><a href="javascript:;"><span>일러스트<strong>Illust</strong></span></a></li>
+                    <li><a href="javascript:;"><span>포스터<strong>Poster</strong></span></a></li>
+                    <li><a href="javascript:;"><span>팝아트<strong>Popart</strong></span></a></li>
+                    <li><a href="javascript:;"><span>초현실<strong>Surrealism</strong></span></a></li>
+                    <li><a href="javascript:;"><span>카툰<strong>Cartoons</strong></span></a></li>
 
-                <div class="sub_genre_cont">
-                    <p>총 <strong>2</strong>명의 작가가 있습니다.</p>
-                    <ul>
-                        <li>
-                            <div class="img_box">
-                                <img src="img/sub_genre/genre06.jpg" alt="">
-                                <div class="best_hide">
-                                    <a href="javascript:;" class="btn_more">View More</a>
-                                    <div class="best_btn">
-                                        <a href="#" class="btn_sight"><span></span></a>
-                                        <a href="#" class="btn_like"><span></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <h3><a href="javascript:;">밀짚 모자를 쓴 자화상</a></h3>
-                            <span>빈센트 반 고흐</span>
-                            <p>30.0cm x 30.0cm</p>
-                            <price>38,200<b>원</b></price>
-                        </li>
-                        
-                        <li>
-                            <div class="img_box">
-                                <img src="img/sub_genre/genre09.jpg" alt="">
-                                <div class="best_hide">
-                                    <a href="javascript:;" class="btn_more">View More</a>
-                                    <div class="best_btn">
-                                        <a href="#" class="btn_sight"><span></span></a>
-                                        <a href="#" class="btn_like"><span></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <h3><a href="javascript:;">양산을 든 여인 - 카미유와 장</a></h3>
-                            <span>클로드 모네</span>
-                            <p>30.0cm x 30.0cm</p>
-                            <price>38,200<b>원</b></price>
-                        </li>
-                    </ul>
-                </div>
+                </ul>
             </div>
 
+            <div class="sub_genre_cont">
+                <p>총 <strong>2</strong>명의 작가가 있습니다.</p>
+                <ul>
+                    <li>
+                        <div class="img_box">
+                            <img src="img/sub_genre/genre06.jpg" alt="">
+                            <div class="best_hide">
+                                <a href="javascript:;" class="btn_more">View More</a>
+                                <div class="best_btn">
+                                    <a href="javascript:;" class="btn_sight"><span></span></a>
+                                    <a href="javascript:;" class="btn_like"><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3><a href="javascript:;">밀짚 모자를 쓴 자화상</a></h3>
+                        <span>빈센트 반 고흐</span>
+                        <p>30.0cm x 30.0cm</p>
+                        <price>38,200<b>원</b></price>
+                    </li>
 
-            <!-- footer -->
-            <footer id="footer">
-                <div class="inner_02">
-                    <h2 class="blind">백상 갤러리</h2>
-                    <div class="ft-info-wrap">
-                        <ul class="ft-policy">
-                            <li><a href="javascript:;">개인정보처리방침</a></li>
-                            <li><a href="javascript:;p">이용약관</a></li>
-                            <li><a href="javascript:;">회사소개</a></li>
-                        </ul>
-                        <address class="ft-address">
-                            <p>
-                                <span>대표자 : 권순상</span>
-                                <span>사업자 등록번호 : 137-81-30071</span>
-                            </p>
-                            <p>
-                                <span>주소 : 경기도 고양시 일산동구 산황로 178-15</span>
-                                <span>EMAIL : <a href="javascript:;">gbaexang@gmail.com</a></span>
-                                <span>TEL : 031-954-9541</span>
-                                <span>FAX : 031-977-9540</span>
-                            </p>
-                        </address>
-                        <p class="copyright">Copyright © 2022 Baexang Gallery. All rights reserved.</p>
-                    </div>
+                    <li>
+                        <div class="img_box">
+                            <img src="img/sub_genre/genre09.jpg" alt="">
+                            <div class="best_hide">
+                                <a href="javascript:;" class="btn_more">View More</a>
+                                <div class="best_btn">
+                                    <a href="javascript:;" class="btn_sight"><span></span></a>
+                                    <a href="javascript:;" class="btn_like"><span></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3><a href="javascript:;">양산을 든 여인 - 카미유와 장</a></h3>
+                        <span>클로드 모네</span>
+                        <p>30.0cm x 30.0cm</p>
+                        <price>38,200<b>원</b></price>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="inner_02">
+                <h2 class="blind">백상 갤러리</h2>
+                <div class="ft-info-wrap">
+                    <ul class="ft-policy">
+                        <li><a href="javascript:;">개인정보처리방침</a></li>
+                        <li><a href="javascript:;p">이용약관</a></li>
+                        <li><a href="javascript:;">회사소개</a></li>
+                    </ul>
+                    <address class="ft-address">
+                        <p>
+                            <span>대표자 : 권순상</span>
+                            <span>사업자 등록번호 : 137-81-30071</span>
+                        </p>
+                        <p>
+                            <span>주소 : 경기도 고양시 일산동구 산황로 178-15</span>
+                            <span>EMAIL : <a href="javascript:;">gbaexang@gmail.com</a></span>
+                            <span>TEL : 031-954-9541</span>
+                            <span>FAX : 031-977-9540</span>
+                        </p>
+                    </address>
+                    <p class="copyright">Copyright © 2022 Baexang Gallery. All rights reserved.</p>
                 </div>
-            </footer>
+            </div>
+        </footer>
 
-            <script src="js/common.js"></script>
+        <script src="js/common.js"></script>
     </div>
 </body>
+
 </html>
